@@ -39,7 +39,7 @@ describe('Billionaires', function() {
         results.poorest.should.be.an('array');
       });
   
-      it('should be Bill Gates', function() {
+      it('should be Zhu Wenchen', function() {
           results.poorest[0].name.should.be.equal('Zhu Wenchen');
       });
   });
